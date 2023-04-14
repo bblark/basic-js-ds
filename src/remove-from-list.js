@@ -26,7 +26,6 @@ removeKFromList([3, 1, 2, 3, 4, 5] , k = 3)
 function removeKFromList( l, k) {
     let head = l
     let previous = null
-    console.log(l[0].next)
     while(l){
         if(l.value === k){
             if(previous===null){
